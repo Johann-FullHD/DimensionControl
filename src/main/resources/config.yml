@@ -1,0 +1,7 @@
+access:
+  nether: true
+  end: true
+messages:
+  no_access: "Zugriff auf diese Dimension ist derzeit eingeschränkt."
+  access_enabled: "Zugriff auf die Dimension wurde aktiviert."
+  access_disabled: "Zugriff auf die Dimension wurde deaktiviert."

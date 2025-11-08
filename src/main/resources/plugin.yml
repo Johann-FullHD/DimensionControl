@@ -1,0 +1,27 @@
+name: DimensionControl
+version: 1.0.0
+main: com.example.dimensioncontrol.DimensionControlPlugin
+api-version: 1.20
+authors: ["Johann_HD"]
+
+commands:
+  dimensionaccess:
+    description: Verwalte den Zugang zu Nether und End
+    usage: /dimensionaccess
+    aliases: [dac, dimaccess]
+    permission: dimensioncontrol.admin
+
+permissions:
+  dimensioncontrol.admin:
+    description: Vollzugriff auf Dimension-Verwaltung
+    default: op
+  dimensioncontrol.status:
+    description: Darf Status abrufen
+    default: true
+  dimensioncontrol.bypass.nether:
+    description: Umgeht Nether-Sperre
+    default: op
+  dimensioncontrol.bypass.end:
+    description: Umgeht End-Sperre
+    default: op
+# Listener: PortalListener, TeleportListener, CommandPreprocessListener, EndPortalListener
